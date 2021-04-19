@@ -14,7 +14,7 @@ export default class AuthSettings {
 
   static username: string = '';
 
-  static password: string = ''
+  static password: string = '';
 
 }
 
