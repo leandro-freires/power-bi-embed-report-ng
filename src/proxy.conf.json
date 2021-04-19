@@ -1,0 +1,13 @@
+{
+  "/api/*": {
+    "target": "https://login.windows.net",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/azure": "common/oauth2/token"
+    },
+    "logLevel": "debug"
+  }
+}
+
+
